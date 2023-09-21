@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Problems\" />
+    <None Remove="Problems\1\" />
+    <None Remove="Problems\1\Solutions\" />
+    <None Remove="Problems\1\Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Problems\" />
+    <Folder Include="Problems\1\" />
+    <Folder Include="Problems\1\Solutions\" />
+    <Folder Include="Problems\1\Common\" />
+  </ItemGroup>
+</Project>
