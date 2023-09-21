@@ -26,7 +26,7 @@ This is a small console app to showcase some of my leetcode progress as I have b
 -----------
 Download the repository and run in Visual Studio or by using the command.
 ```
-  dotnet run
+$  dotnet run
 ```
 
 **Architecture**
