@@ -4,7 +4,9 @@ Console app to showcase Leet Code solutions, OOP and input parsing.
 
 **Description**
 ------------------
-😁 Hi I'm Ray De Jesus! I have been programming professionally for over 6 years developing web and mobile applications for many clients. This is just a little console app to showcase some of my leetcode progress as I have been brushing up on data structures and algorithms. Additionally this serves as a display of my knowledge of fundamentally important techniques and principles as a software engineer. No flashy frameworks just problem solving and SOLID code.
+😁 Hi I'm Ray De Jesus! I have been programming professionally for over 6 years developing web and mobile applications for many clients. 
+
+This is a small console app to showcase some of my leetcode progress as I have been brushing up on data structures and algorithms. Additionally this serves as a display of my knowledge of fundamentally important techniques and principles as a software engineer. No flashy frameworks just problem solving and SOLID code.
 
 **Some key points**
 - This repo showcases leetcode solutions I have coded myself.
