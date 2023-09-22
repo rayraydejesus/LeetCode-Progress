@@ -7,6 +7,8 @@
 		{
 			case 1:
 				return new Problem_1();
+			case 1768:
+				return new Problem_1768();
 			default:
 				return null;
 		}

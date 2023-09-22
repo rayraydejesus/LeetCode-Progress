@@ -42,6 +42,50 @@ public sealed class Problem_1768 : LeetCodeProblem
 		while (true)
 		{
 			base.retrieveInput();
+			string input = Console.ReadLine();
+
+			//word1 = "abc", word2 = "pqr"
+			if (input == "")
+				Console.WriteLine("No input recieved");
+			else
+			{
+				int quoteLeft = -1;
+				int quoteRight = -1;
+				string word1 = "";
+				string word2 = "";
+
+				for (int i = 0; i < input.Length; ++i)
+				{
+					if (input[i] == '"')
+					{
+						if (quoteLeft == -1)
+							quoteLeft = i + 1;
+						else if (quoteRight == -1)
+						{
+							quoteRight = i - quoteLeft;
+							if (word1 == "")
+							{
+								word1 = input.Substring(quoteLeft, quoteRight);
+								quoteLeft = -1;
+								quoteRight = -1;
+							}
+							else
+							{
+								word2 = input.Substring(quoteLeft, quoteRight);
+								break;
+							}
+						}
+					}
+				}
+                //Console.WriteLine("Word1 : " + word1);
+                //Console.WriteLine("Word2 : " + word2);
+
+                Input_1768 parsedInput = new Input_1768(word1, word2);
+                this.runSolution(parsedInput);
+
+                if (!Prompts.anotherSolution())
+                    break;
+            }
 		}
     }
 
