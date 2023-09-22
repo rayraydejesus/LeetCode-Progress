@@ -1,6 +1,6 @@
-﻿public sealed class LeetCodeProblem_1 : LeetCodeProblem
+﻿public sealed class Problem_1 : LeetCodeProblem
 {
-	public LeetCodeProblem_1(
+	public Problem_1(
         int key = 1,
 		string title = "Two Sum",
 		string url = "https://leetcode.com/problems/two-sum/",
@@ -104,7 +104,7 @@
 	}
 	protected override void printSolution(object solution)
 	{
-		Console.WriteLine("\nSolution:");
+		base.printSolution();
 		int[] result = solution as int[];
         Console.WriteLine("[{0}]", string.Join(", ", result));
     }

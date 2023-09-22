@@ -15,11 +15,17 @@
     <None Remove="Problems\1\" />
     <None Remove="Problems\1\Solutions\" />
     <None Remove="Problems\1\Common\" />
+    <None Remove="Problems\1768\" />
+    <None Remove="Problems\1768\Common\" />
+    <None Remove="Problems\1768\Solutions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Problems\" />
     <Folder Include="Problems\1\" />
     <Folder Include="Problems\1\Solutions\" />
     <Folder Include="Problems\1\Common\" />
+    <Folder Include="Problems\1768\" />
+    <Folder Include="Problems\1768\Common\" />
+    <Folder Include="Problems\1768\Solutions\" />
   </ItemGroup>
 </Project>
