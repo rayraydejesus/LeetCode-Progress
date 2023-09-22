@@ -21,6 +21,7 @@ This is a small console app to showcase some of my leetcode progress as I have b
 | # | Title | Solution | Time | Space | Analysis |
 |---| ----- | --------- | ---- | ---- | ------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Source](./Problems/1/Solutions/Solution_1_Hashmap.cs) | O(N) | O(N) | [README](./Problems/1/README.md) |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | [Source](./Problems/1768/Solutions/Solution_1768.cs) | O(N) | O(M+N) | [README](./Problems/1768/README.md) |
 
 **Usage**
 -----------
