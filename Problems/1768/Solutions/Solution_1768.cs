@@ -1,6 +1,4 @@
-﻿using System;
-
-public class Solution_1768 : ISolution_1768
+﻿public class Solution_1768 : ISolution_1768
 {
 	public Solution_1768(){}
 

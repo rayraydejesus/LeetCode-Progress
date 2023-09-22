@@ -6,7 +6,7 @@
 		switch(key)
 		{
 			case 1:
-				return new LeetCodeProblem_1();
+				return new Problem_1();
 			default:
 				return null;
 		}

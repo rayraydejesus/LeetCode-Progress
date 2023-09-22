@@ -32,6 +32,10 @@
 
     // NOTE: Boxing and unboxing for simplicity sake
     protected abstract void runSolution(object input);
+	protected virtual void printSolution()
+	{
+        Console.WriteLine("\nSolution:");
+    }
 	protected abstract void printSolution(object solution);
 }
 
